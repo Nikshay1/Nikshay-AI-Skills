@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "title": "Nikshay AI Skills",
+  "repository": "https://github.com/Nikshay1/Nikshay-AI-Skills",
+  "skills": [
+    {
+      "name": "unslop",
+      "category": "writing",
+      "description": "Edit prose to remove formulaic AI writing patterns while preserving meaning, tone, and a natural human voice.",
+      "path": "skills/writing/unslop/SKILL.md",
+      "keywords": [
+        "writing",
+        "editing",
+        "prose",
+        "human voice",
+        "AI patterns"
+      ],
+      "source_files": [
+        "Unslop.md"
+      ]
+    },
+    {
+      "name": "issue-finder",
+      "category": "open-source",
+      "description": "Find open-source GitHub issues to contribute to and verify that they are available, still relevant, and realistically solvable before recommending them.",
+      "path": "skills/open-source/issue-finder/SKILL.md",
+      "keywords": [
+        "github",
+        "issues",
+        "contribution",
+        "open source",
+        "availability"
+      ],
+      "source_files": [
+        "Open Source contribution/Issue Finder.md"
+      ]
+    },
+    {
+      "name": "grafana-pr-checklist",
+      "category": "grafana",
+      "description": "Investigate or review Grafana bug fixes by tracing shared state, every relevant caller, alternate UI modes, and failure-to-recovery behavior before preparing a pull request.",
+      "path": "skills/grafana/grafana-pr-checklist/SKILL.md",
+      "keywords": [
+        "grafana",
+        "pull request",
+        "review",
+        "state",
+        "regression",
+        "query editor"
+      ],
+      "source_files": [
+        "Grafana/PR checklist.md"
+      ],
+      "references": [
+        "skills/grafana/grafana-pr-checklist/references/pr-checklist.md"
+      ]
+    },
+    {
+      "name": "grafana-backend-run",
+      "category": "grafana",
+      "description": "Run Grafana locally with disk-backed Go build temporary directories when RAM-backed /tmp can cause memory exhaustion; verify the host storage layout before using workstation-specific examples.",
+      "path": "skills/grafana/grafana-backend-run/SKILL.md",
+      "keywords": [
+        "grafana",
+        "backend",
+        "go",
+        "tmpfs",
+        "TMPDIR",
+        "GOTMPDIR",
+        "memory"
+      ],
+      "source_files": [
+        "Grafana/Grafana_run.md"
+      ],
+      "references": [
+        "skills/grafana/grafana-backend-run/references/original-run-guide.md"
+      ]
+    }
+  ]
+}
