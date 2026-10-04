@@ -22,7 +22,7 @@
     {
       "name": "issue-finder",
       "category": "open-source",
-      "description": "Find open-source GitHub issues to contribute to and verify that they are available, still relevant, and realistically solvable before recommending them.",
+      "description": "Find open-source GitHub issues to contribute to and verify that they remain available, unfixed, and realistically solvable. Use when selecting or vetting contribution opportunities.",
       "path": "skills/open-source/issue-finder/SKILL.md",
       "keywords": [
         "github",

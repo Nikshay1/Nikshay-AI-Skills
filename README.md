@@ -75,6 +75,6 @@ The categorized `skills/` tree is a library; cloning it alone does not install e
 
 ## Source notes
 
-This collection began with four Markdown files from Nikshay's local skill library. Their original relative filenames are recorded in `catalog.json`. The writing and issue-finding skills retain their original instructions, with YAML metadata added and trailing heading whitespace cleaned up. The two Grafana documents are preserved in their skill folders as references, with concise entry points added for discovery.
+This collection began with four Markdown files from Nikshay's local skill library. Their original relative filenames are recorded in `catalog.json`. The writing skill retains its original instructions, with YAML metadata added and trailing heading whitespace cleaned up. The issue-finder skill has since been updated with more detailed verification guidance and Nikshay's fork-first contribution workflow using `fork` and `main` remotes. The two Grafana documents are preserved in their skill folders as references, with concise entry points added for discovery.
 
 The original Grafana run guide describes Nikshay's workstation. Its `/home/nikshay` paths and SSD/tmpfs assumptions are examples; the entry point explains how to check and adapt them for another machine. The PR checklist's issue number and component names describe a historical case, not a guarantee about Grafana's current source.
